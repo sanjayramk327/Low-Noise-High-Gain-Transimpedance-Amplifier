@@ -1,0 +1,35 @@
+//
+//  Rule file generated on Mon Feb 9 16:47:41 2026
+//  by Calibre Interactive v2022.1_36.16    Tue Mar 1 14:27:08 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "inverter5.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "inverter5"
+
+SOURCE PATH "/user_data1/ece2026/ece_2026_9/Downloads/Calibre_rulefiles_scl/scl_clibre/scale.cdl" "inverter5.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "inverter5"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "inverter5.lvs.report"
+
+LAYOUT CASE YES
+
+SOURCE CASE YES
+
+LVS POWER NAME "vdd"
+LVS GROUND NAME "vss"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "inverter5.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/user_data1/ece2026/ece_2026_9/Downloads/Calibre_rulefiles_scl/scl_clibre/drclvs_rsf/LVS.header"

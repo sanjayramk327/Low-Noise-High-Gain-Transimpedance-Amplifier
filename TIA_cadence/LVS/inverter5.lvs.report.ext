@@ -1,0 +1,29 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         inverter5.lvs.report.ext
+LAYOUT NAME:              inverter5.calibre.db ('inverter5')
+CREATION TIME:            Mon Feb  9 16:47:42 2026
+CURRENT DIRECTORY:        /user_data1/ece2026/ece_2026_9/EC10034
+USER NAME:                ece_2026_9
+CALIBRE VERSION:          v2022.1_36.16    Tue Mar 1 14:26:36 PST 2022
+
+
+
+Extraction Errors and Warnings for cell "inverter5"
+---------------------------------------------------
+
+WARNING:  Unattached label:
+          Name  "vout"  at location  (3.095,3.3)  on layer  110
+
+
+WARNING: Unattached port "vout" at location (3.095,3.3) in cell "inverter5"
+
